@@ -4,7 +4,7 @@ pipeline {
         stage("checkout code from github") {
             steps {
                 echo "git checkout starting"
-                git url: "https://github.com/akshu20791/addressbook-cicd-project/"
+                git url: "https://https://github.com/Balaji-2000-source/java-web-application/"
                 echo "git checkout done"
             }
         }
